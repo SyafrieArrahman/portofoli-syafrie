@@ -10,3 +10,11 @@ showSkillBtn.addEventListener("click", function() {
     this.textContent = "Show Skill";
   }
 });
+
+function openOverlay(projectId) {
+  document.getElementById(projectId).style.display = "flex";
+}
+
+function closeOverlay(projectId) {
+  document.getElementById(projectId).style.display = "none";
+}

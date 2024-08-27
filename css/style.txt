@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url(../assets/IMG_0227.jpeg) no-repeat center center fixed;
+}
+
+.header {
+    background-color: black;
+    margin: 10px;
+    padding: 1em;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name-profile {
+    font-size: 18px;
+    color: #333;
+}
+
+.navigasi {
+    display: flex;
+    align-items: center;
+}
+
+.navigasi a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    position: relative;
+    padding: 5px 0;
+}
+
+.navigasi a:hover {
+    color: #007BFF;
+}
+
+.navigasi a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #007BFF;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.navigasi a:hover::after {
+    width: 100%;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.6);
+    color: #333;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #aaa;
+}
