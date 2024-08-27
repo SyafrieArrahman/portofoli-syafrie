@@ -10,22 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
-  position: relative;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("/assets/IMG_0227.jpeg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  z-index: -1;
+  background: url(../assets/IMG_0227.jpeg) no-repeat center center fixed;
 }
 
 .content {
@@ -44,10 +29,10 @@ header {
   padding: 100px;
   margin-bottom: 1rem;
   color: #fff;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(4px);
   border-radius: 15px;
 }
 
@@ -306,64 +291,3 @@ header {
   font-size: 1em;
 }
 
-/*      CONTACT ME      */
-.contact-me {
-  background-color: var(--primary);
-  color: var(--textcolor);
-  padding: 20px 100px;
-  margin: 0 auto;
-}
-
-.contact-me h2 {
-  font-size: 2em;
-  margin-bottom: 15px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label {
-  margin: 10px 0 5px;
-  font-size: 1em;
-}
-
-form input, form textarea {
-  padding: 10px;
-  font-size: 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-form button {
-  padding: 10px 20px;
-  font-size: 1em;
-  border: none;
-  border-radius: 4px;
-  background-color: var(--accent);
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-form button:hover {
-  background-color: var(--hover);
-}
-
-.social-links {
-  margin-top: 20px;
-}
-
-.social-links a {
-  display: inline-block;
-  margin-right: 15px;
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.social-links a:hover {
-  text-decoration: underline;
-}
