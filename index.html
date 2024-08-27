@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muhammad Syafrie Arrahman, a Graphic Designer & UI/UX Enthusiast showcasing work experience and design projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="content">
+    <header>
+        <div class="header-content">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>Explore My Work and Experience</p>
+            <div class="search-and-buttons">
+                <input type="type" placeholder="Search...">
+                <div class="buttons">
+                    <button type="submit">Contact Me</button>
+                    <button type="submit">View Project</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-image">
+          <img src="assets/photo-profile.png" alt="Profile Image" loading="lazy">
+        </div>
+    </header>
+    
+    <div class="profile">
+      <div class="profile-image">
+        <img src="assets/photo-profile.png" alt="Profile Image">
+      </div>
+      <div class="profile-info">
+        <div class="profile-header">
+          <div>
+            <strong>Muhammad Syafrie Arrahman</strong>
+            <p>Graphic Designer & UI/UX Enthusiast</p>
+          </div>
+          <button id="show-skill-btn" aria-label="Toggle skill visibility">Show Skill</button>
+        </div>
+      </div>
+    </div>
+    <div id="skills" class="skills-hidden">
+      <div class="skills-columns">
+        <div class="skills-column">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Adobe After Effects</li>
+            <li>Canva</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="skills-column">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Time Management</li>
+            <li>Discipline</li>
+            <li>Critical Thinking</li>
+            <li>Problem Solving</li>
+            <li>Observation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>I am a graphic designer and UI/UX enthusiast with over 3 years of experience in creating creative and functional visual design solutions. I have expertise in using design software such as Adobe Photoshop, Illustrator, Figma, and After Effects. With a background in Multimedia and Information Systems, I am able to combine aesthetic design with technological understanding to produce work that is not only visually appealing but also provides an optimal user experience.</p>
+    </div>
+      
+    <div class="work-experience">
+      <h2>Work Experience</h2>
+      <div class="experience-item">
+        <h3>Graphic Designer at Seelen Footwork</h3>
+        <p><strong>January 2021 - January 2022</strong></p>
+        <p>Managed designs, created Instagram feeds and stories in both photo and video formats, designed the company logo, and handled other social media design needs.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Intern at Diskominfo Kabupaten Berau</h3>
+        <p><strong>December 2019 - March 2020</strong></p>
+        <p>Assigned to various departments due to a rolling policy. Created infographics, handled correspondence, documentation, video editing, and assisted employees with work-related tasks.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Part-time Graphic Designer at Forum Anak Berau</h3>
+        <p><strong>August 2020 - August 2021</strong></p>
+        <p>Created Instagram feed and story designs, banners, pamphlets, and video editing.</p>
+      </div>
+      <div class="experience-item">
+        <h3>Part-time Graphic Designer at Mama Bakery</h3>
+        <p><strong>October 2021 - January 2022</strong></p>
+        <p>Redesigned the menu, created greeting cards, promotional materials, price lists, event bundles, Instagram stories, and managed Instagram ads.</p>
+      </div>
+    </div>    
+    
+    <div class="design-projects">
+      <h2>Design Projects</h2>
+      <div class="project-row">
+        <div class="project-item">
+          <img src="assets/sandyakala-shirt.png" alt="Sandyakala Café Shirt Design">
+          <div class="project-info">
+            <h3>Sandyakala Café Shirt Design</h3>
+            <p>This project involved designing a shirt for Sandyakala Café, capturing their unique brand identity and style.</p>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="assets/project2.png" alt="Project Title 2">
+          <div class="project-info">
+            <h3>Project Title 2</h3>
+            <p>Description of project 2, highlighting key features and outcomes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-row">
+        <div class="project-item">
+          <img src="assets/project3.png" alt="Project Title 3">
+          <div class="project-info">
+            <h3>Project Title 3</h3>
+            <p>Description of project 3, detailing the approach and results.</p>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="assets/project3.png" alt="Project Title 3">
+          <div class="project-info">
+            <h3>Project Title 4</h3>
+            <p>Description of project 4, detailing the approach and results.</p>
+          </div>
+        </div>
+        <!-- Add more project items as needed -->
+      </div>
+    </div>
+    
+    <div class="contact-me">
+      <h2>Contact Me</h2>
+      <form action="mailto:syafriearrahman@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <button type="submit">Send</button>
+      </form>
+      <div class="social-links">
+        <a href="https://www.instagram.com/syafriearrahman" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/syafriearrahman" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>    
+    
+  <script src="js/scripts.js"></script>
+</body>
+</html>
